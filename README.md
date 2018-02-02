@@ -34,10 +34,10 @@ Il faut deux informations :
 Quand le `state` est égal à `true`.
 
 ### 3. Comment une tâche est supprimée ?
-Si l'état est égal à `true` : supprimer l'objet de la BDD.
-- Connaître le `_id` de l'objet
-- Créer une route `API` pour supprimer l'objet de la BDD
+Chaque tâche présente un bouton qui, au clic, permet de supprimer l'objet de la BDD
+- [ ] Connaître le `_id`
+- [ ] Créer une route `API` pour supprimer l'objet
 
-### 4. Comment les tâches sont filtées ?
+### 4. Comment les tâches sont filtrées ?
 Je dois sélectionner tous les objets et n'afficher que ceux dont le `state` vaut `true` ou `false`.
 - Créer une route `API` pour sélectionner les tâches
